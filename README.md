@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Fullstack Template
 ## Features
 
 Includes;
