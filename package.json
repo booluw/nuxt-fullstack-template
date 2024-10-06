@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "prisma generate && nuxt dev ---port=2002",
+    "start": "NODE_ENV=production node .output/server/index.mjs",
+    "lint": "eslint . && nuxt typecheck",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@prisma/client": "^5.20.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.7",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "nuxt": "^3.13.0",
+    "prisma": "^5.20.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@nuxt/eslint": "^0.5.7",
+    "eslint": "^9.12.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "globals": "^15.10.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.0",
+    "vue-tsc": "^2.1.6"
+  }
+}
