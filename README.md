@@ -12,7 +12,13 @@ Includes;
 - Server and Client middlewares
 - Basic HTTP Error function
 
+## Contributing
+
 Feel there should be more? Create a PR/Issue
+
+## Versioning
+
+Release versioning is based on `v[VERSION_OF_TEMPLATE].[VERSION_OF_NUXT_USED]`, therefore `v0.13.3` related to version 0 of the template, using v13.3 of NuxtJS
 
 ## Setup
 
